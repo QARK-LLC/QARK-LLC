@@ -7,7 +7,7 @@ body {
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
-    color:  #ff4500;
+    color: #ff4500;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -31,7 +31,7 @@ button {
     font-size: 1.2rem;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin: 0.5rem;
 }
 
 button:hover {
@@ -39,11 +39,36 @@ button:hover {
 }
 
 .contact-info {
-    display: none; /* Hidden by default */
+    display: none;
     margin-top: 1rem;
     font-size: 1.5rem;
+    color: white;
 }
 
 .contact-info p {
     margin: 0.5rem 0;
+}
+
+.privacy-info {
+    display: none;
+    margin-top: 1rem;
+    max-width: 800px; /* Kept wide to reduce vertical length */
+    text-align: left;
+    padding: 1rem;
+    background-color: rgba(44, 62, 80, 0.8);
+    border-radius: 5px;
+    color: #ff4500;
+    max-height: 400px; /* Fixed height to limit vertical stretch */
+    overflow-y: auto; /* Adds vertical scrollbar when content exceeds height */
+}
+
+.privacy-info h2 {
+    margin-top: 0;
+    color: #ff4500;
+}
+
+.privacy-info ul {
+    margin-left: 1.5rem;
+    list-style-type: disc;
+    color: #ff4500;
 }
