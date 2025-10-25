@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qark Digital Assets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QARK DIGITAL ASSETS</h1>
+        <button onclick="toggleContact()">Contact</button>
+        <div id="contactInfo" class="contact-info">
+            <p>Call: 504-291-2190</p>
+            <p>Email: QARK-LLC@protonmail.com</p>
+        </div>
+    </div>
+    <script>
+        function toggleContact() {
+            var contact = document.getElementById("contactInfo");
+            if (contact.style.display === "block") {
+                contact.style.display = "none";
+            } else {
+                contact.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
